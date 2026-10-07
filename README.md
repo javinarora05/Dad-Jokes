@@ -1,108 +1,22 @@
 # 😂 Dad Jokes Generator
 
-A simple and fun **Dad Jokes Generator** built with **HTML, CSS, and JavaScript**.  
-It fetches random dad jokes from the public **icanhazdadjoke API** and displays them in a clean, modern UI.
+> A tiny web app that fetches random dad jokes from the icanhazdadjoke API.
 
----
+## ✨ Features
+- Random jokes from an external API
+- One-click refresh
+- Responsive dark UI
+- No framework required
 
-## 🚀 Features
+## 🧰 Tech
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-- Fetches random dad jokes from an external API
-- Button to load a new joke instantly
-- Dark-themed, responsive UI
-- No frameworks or libraries required
-- Beginner-friendly, clean codebase
+## 🔌 API
+[icanhazdadjoke](https://icanhazdadjoke.com/)
 
----
+## 🧠 Concepts
+HTTP requests • Fetch API • JSON • DOM updates
 
-## 🛠️ Built With
-
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript**
-- **Fetch API**
-
----
-
-## 📁 Project Structure
-
-```
-
-.
-├── index.html
-├── styles.css
-└── script.js
-
-```
-
----
-
-## ⚙️ How It Works
-
-1. A joke is fetched automatically when the page loads.
-2. Clicking **“Get Another Joke”** sends a request to:
-```
-
-[https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)
-
-````
-3. The API returns a JSON response.
-4. The joke text is displayed on the page.
-
----
-
-## 🧠 Core Logic
-
-```js
-fetch(apiUrl, {
-headers: {
- Accept: "application/json"
-}
-})
-.then(res => res.json())
-.then(data => {
- apiBody.innerHTML = data.joke;
-});
-````
-
----
-
-## ▶️ Getting Started
-
-### Run Locally
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/Dad-Jokes.git
-   ```
-2. Open `index.html` in your browser.
-
-> 💡 Tip: For best results, use VS Code’s **Live Server** extension.
-
----
-
-## 📚 API Used
-
-* **icanhazdadjoke**
-
-  * [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)
-  * Free and does not require authentication
-
----
-
-## ✨ Future Improvements
-
-* Add loading state
-* Add error handling UI
-* Copy joke to clipboard
-* Save favorite jokes
-* Convert to `async/await`
-
----
-
-## 👤 Author
-
-Built by **Javin Arora**
-
----
+Built by **Javin Arora**.
